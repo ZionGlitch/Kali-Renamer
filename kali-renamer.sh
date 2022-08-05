@@ -15,8 +15,8 @@ read  real_name
 echo Thank you $real_name, changing over your user, $new_username, now...
 
 sleep 2
-# Commands that change the user, group, and rename home directory
 
+# Commands that change the user, group, and rename home directory
 usermod -l $new_username -d /home/$new_username -m kali &&
 groupmod -n $new_username kali &&
 ln -s /home/$new_username /home/kali &&
