@@ -15,4 +15,4 @@ A Bash script that will rename the Kali user to a username of your choice.
 
 # Changelog
 ***
-Removed `chmod` requirements, no integrated via git.
+Removed `chmod` requirements, now integrated via git.
